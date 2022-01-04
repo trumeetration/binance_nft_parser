@@ -19,8 +19,6 @@ async function fetchBinanceMarket(nftName, type, isBoxOpened = 2) {
             "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
             clienttype: "web",
             "content-type": "application/json",
-            "device-info":
-                "eyJzY3JlZW5fcmVzb2x1dGlvbiI6IjI1NjAsMTQ0MCIsImF2YWlsYWJsZV9zY3JlZW5fcmVzb2x1dGlvbiI6IjI1NjAsMTQwMCIsInN5c3RlbV92ZXJzaW9uIjoiV2luZG93cyAxMCIsImJyYW5kX21vZGVsIjoidW5rbm93biIsInN5c3RlbV9sYW5nIjoicnUtUlUiLCJ0aW1lem9uZSI6IkdNVCs1IiwidGltZXpvbmVPZmZzZXQiOi0zMDAsInVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTYuMC40NjY0LjExMCBTYWZhcmkvNTM3LjM2IiwibGlzdF9wbHVnaW4iOiJQREYgVmlld2VyLENocm9tZSBQREYgVmlld2VyLENocm9taXVtIFBERiBWaWV3ZXIsTWljcm9zb2Z0IEVkZ2UgUERGIFZpZXdlcixXZWJLaXQgYnVpbHQtaW4gUERGIiwiY2FudmFzX2NvZGUiOiJhNDBkZGEzMiIsIndlYmdsX3ZlbmRvciI6Ikdvb2dsZSBJbmMuIChOVklESUEpIiwid2ViZ2xfcmVuZGVyZXIiOiJBTkdMRSAoTlZJRElBLCBOVklESUEgR2VGb3JjZSBSVFggMjA2MCBEaXJlY3QzRDExIHZzXzVfMCBwc181XzAsIEQzRDExLTMwLjAuMTQuOTY3NikiLCJhdWRpbyI6IjEyNC4wNDM0NzUyNzUxNjA3NCIsInBsYXRmb3JtIjoiV2luMzIiLCJ3ZWJfdGltZXpvbmUiOiJBc2lhL1lla2F0ZXJpbmJ1cmciLCJkZXZpY2VfbmFtZSI6IkNocm9tZSBWOTYuMC40NjY0LjExMCAoV2luZG93cykiLCJmaW5nZXJwcmludCI6IjY5NmI4NzkxOTE2Y2IyNmVkOThhNmJiM2YwMWE3NTNlIiwiZGV2aWNlX2lkIjoiIiwicmVsYXRlZF9kZXZpY2VfaWRzIjoiIn0=",
             lang: "ru",
             "sec-ch-ua":
                 '" Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"',
